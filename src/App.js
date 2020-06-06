@@ -11,8 +11,8 @@ import CreateUser from "./components/create-user.component";
 function App() {
   return (
     <Router>
-        <Navbar />
-        <br />
+      <Navbar />
+      <br />
       <div className="container">
         <Route path="/" exact component={ExercisesList} />
         <Route path="/edit/:id" exact component={EditExercise} />
@@ -24,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+//https://youtu.be/7CqJlxBYj-M?t=3706
